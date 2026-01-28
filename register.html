@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registration Page</title>
+  <link rel="stylesheet" href="register.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Sign Up</h2>
+            <form action="login.html" method="post">
+                <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" name="fullname" required>
+
+                <label for="username">Username</label>
+                    <input type="text" id="username" name="username" required>
+                    <p>Username may only contain alphanumeric characters or single hyphens,and cannot begin and end with a hyphen.</p>
+                <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" minlength="8" maxlength="16" required>
+                <p>Password should be at least 8 characters.</p>
+                <label for="country">Country</label>
+                    <select id="country" name="Country" required>
+                        <option value="">Select...</option>
+                        <option value="Cambodia">Cambodia</option>
+                        <option value="Vietnam">Vietnam</option>
+                        <option value="Laos">Laos</option>
+                        <option value="Malaysia">Malaysia</option>
+                        <option value="Singapore">Singapore</option>
+                        <option value="Indonesia">Indonesia</option>
+                        <option value="Philippines">Philippines</option>
+                        <option value="Brunei">Brunei</option>
+                        <option value="Myanmar">Myanmar</option>
+                        <option value="China">China</option>
+                        <option value="Japan">Japan</option>
+                        <option value="South Korea">South Korea</option>
+                        <option value="North Korea">North Korea</option>
+                        <option value="India">India</option>
+                        <option value="Pakistan">Pakistan</option>
+                        <option value="Bangladesh">Bangladesh</option>
+                        <option value="Sri Lanka">Sri Lanka</option>
+                        <option value="Nepal">Nepal</option>
+                        <option value="Bhutan">Bhutan</option>
+                        <option value="United States">United States</option>
+                        <option value="Canada">Canada</option>
+                        <option value="Mexico">Mexico</option>
+                        <option value="Brazil">Brazil</option>
+                        <option value="Argentina">Argentina</option>
+                        <option value="Chile">Chile</option>
+                        <option value="Peru">Peru</option>
+                        <option value="Colombia">Colombia</option>
+                        <option value="Venezuela">Venezuela</option>
+                        <option value="Uruguay">Uruguay</option>
+                        <option value="United Kingdom">United Kingdom</option>
+                        <option value="France">France</option>
+                        <option value="Germany">Germany</option>
+                        <option value="Italy">Italy</option>
+                        <option value="Spain">Spain</option>
+                        <option value="Portugal">Portugal</option>
+                        <option value="Netherlands">Netherlands</option>
+                        <option value="Belgium">Belgium</option>
+                        <option value="Switzerland">Switzerland</option>
+                        <option value="Austria">Austria</option>
+                        <option value="Australia">Australia</option>
+                        <option value="New Zealand">New Zealand</option>
+                    </select>
+                    <p>For compliance reasons, we're required to collect country information to send you occasional updates and announcements.</p>
+
+                <label for="gender">Gender</label>
+                    <select id="gender" name="gender" required>
+                        <option value="">Select...</option>
+                        <option value="male">Male</option>
+                        <option value="female">Female</option>
+                        <option value="other">Other</option>
+                    </select>                
+      <button type="submit">Register</button>
+    </form>
+    <div class="signin-link">
+      Already have an account? <a href="login.html">Sign in</a>
+    </div>
+  </div>
+</body>
+</html>
